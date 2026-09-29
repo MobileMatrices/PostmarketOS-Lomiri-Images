@@ -60,7 +60,7 @@ jobs:
                     #sudo apt-get install -y python3-pip
                     #sudo apt-get install -y pmbootstrap
                     sudo apt-get install -y build-essential python3 git
-                    git clone https://gitlab.com/postmarketOS/pmbootstrap.git
+                    git clone https://gitlab.postmarketos.org/postmarketOS/pmbootstrap.git
                     mkdir -p ~/.local/bin
                     ln -s "$PWD/pmbootstrap/pmbootstrap.py" ~/.local/bin/pmbootstrap
                     pmbootstrap --version
